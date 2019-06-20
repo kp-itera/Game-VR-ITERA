@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1647280761249662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4493131519071810}
+  - component: {fileID: 20023960561703286}
+  - component: {fileID: 114732334079853850}
+  - component: {fileID: 81598398319040166}
+  m_Layer: 0
+  m_Name: FPS Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4493131519071810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647280761249662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4334652592031196}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20023960561703286
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647280761249662}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294949887
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &114732334079853850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647280761249662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e27ebd1ddf7f644ca2ac7f109bd65be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookSensitivity: 5
+  lookSmoth: 0.1
+  MinMaxAngle: {x: -65, y: 65}
+--- !u!81 &81598398319040166
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647280761249662}
+  m_Enabled: 1
+--- !u!1 &1923751080388572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4334652592031196}
+  - component: {fileID: 143994019910831200}
+  - component: {fileID: 114166286505154344}
+  m_Layer: 9
+  m_Name: Manoeuvre FPS Rig
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334652592031196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923751080388572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4493131519071810}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &143994019910831200
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923751080388572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114166286505154344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923751080388572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b5a3829183a2245ac49df1b0d33aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputs:
+    Horizontal: Horizontal
+    Vertical: Vertical
+    mouseScrollWheel: Mouse ScrollWheel
+    horizontal: 0
+    vertical: 0
+    inputVector: {x: 0, y: 0}
+    walkInput: 0
+    jumpButton: Jump
+    jumpKey: 0
+    jumpInput: 0
+    crouchButton: 
+    crouchKey: 306
+    crouchInput: 0
+    runButton: 
+    runKey: 304
+    shootKey: 323
+    shootButton: 
+    ironSightInputKey: 324
+    ReloadButton: Reload
+    ReloadKey: 0
+    NextWeaponButton: NextWeapon
+    NextWeaponKey: 0
+    PreviousWeaponButton: PreviousWeapon
+    PreviousWeaponKey: 0
+    InventoryKey: 0
+    InventoryButton: Inventory
+    ZoomOutKey: 269
+    ZoomOutButton: 
+    ZoomInKey: 270
+    ZoomInButton: 
+  Locomotion:
+    CurrentPlayerState: 0
+    walkSpeed: 2.5
+    crouchSpeed: 1
+    runSpeed: 5
+    jumpSpeed: 10
+    fallSpeed: 5
+    gravityEffector: 2.5
+    crouchHeight: 1
+    normalHeight: 2
+    HearRange: 5
+    FootStepSounds_Slow:
+    - {fileID: 8300000, guid: ccc9a810c8c76704485f60b0bfac8bfe, type: 3}
+    FootStepSounds_Fast:
+    - {fileID: 8300000, guid: b32f985ca85828a45b07d3b582e8176c, type: 3}
+    footStepSource: {fileID: 0}
+    footSoundDelay: 0
+  Health:
+    Health: 28
+    ShakeDuration: 0.2
+    ShakeAmount: 0.01
+    DamageVignetteDuration: 0.47
+    DamageVignette: {fileID: 0}
+    HitSounds: []
+    DeathSounds: []
+    source: {fileID: 0}
+    deathManoeuvre:
+      cameraPositionOffset: {x: 0, y: -0.5, z: 0}
+      cameraRotationOffset: {x: 0, y: 0, z: 75}
+      deathDuration: 2
+      WeaponDismembermentForce: 1
+      insideCoroutine: 0
+    currentHealth: 0
+  propertyTab: 1
+  showInputs: 0
+  showLocomotion: 0
+  showHealth: 0

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Manoeuvre FPS Controller FREE/Scenes/00 Manoeuvre FPS Demo Scene -
+    FPS Example.unity
+  isLoaded: 1
+  isActive: 1
