@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-Z:/Data/ITERAXPLORE/ITERAXPLORER.apk
+Z:/Data/ITERAXPLORE/APK/ITERAXPLORER3.apk
 SceneListBegin?
 Assets/Manoeuvre FPS Controller FREE/Scenes/00 Manoeuvre FPS Demo Scene - FPS Example.unity
 SceneListEnd?

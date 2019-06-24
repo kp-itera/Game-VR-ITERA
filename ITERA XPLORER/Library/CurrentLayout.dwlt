@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 498}
+  m_MinSize: {x: 883, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 122
+  controlID: 128
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 934
     height: 635
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 606, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 79
+  controlID: 56
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 934
     height: 361
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 606, y: 224}
+  m_MaxSize: {x: 6054, y: 4024}
   vertical: 0
-  controlID: 56
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,15 +264,15 @@ MonoBehaviour:
     y: 0
     width: 710
     height: 361
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 404, y: 124}
+  m_MaxSize: {x: 2052, y: 2072}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,10 +320,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 224
+    y: 73
+    width: 706
+    height: 341
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -363,20 +363,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GoogleVR/Prefabs
+    - Assets/GoogleVR/Prefabs/Headset
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GoogleVR/Prefabs
+  - Assets/GoogleVR/Prefabs/Headset
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: Z:\Data\ITERAXPLORE\Venue\Game\ITERA XPLORER
+  m_LastProjectPath: Z:\Data\ITERAXPLORE\Venue\Git\Game-VR-ITERA\ITERA XPLORER
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 259}
-    m_SelectedIDs: 107f0000
-    m_LastClickedID: 32528
-    m_ExpandedIDs: 00000000b42a0000522c00008e2c0000d22c0000102f0000cc3200003433000046330000023400007c3a0000123b0000fa3b0000ea3c00003e7f00001080000040830000248f00003e8f000000ca9a3b
+    scrollPos: {x: 0, y: 323}
+    m_SelectedIDs: ba840000
+    m_LastClickedID: 33978
+    m_ExpandedIDs: 00000000782c0000162e0000382e0000522e0000962e0000d430000092340000fa3400000c350000c8350000443c0000da3c0000c23d0000b43e0000da80000008810000da8100000a850000ee9000000891000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b42a0000522c00008e2c0000102f0000cc3200003433000046330000023400007c3a0000123b0000fa3b0000ea3c00003e7f0000a07f0000108000004083000050860000248f00003e8f0000
+    m_ExpandedIDs: 00000000782c0000162e0000382e0000522e0000d430000092340000fa3400000c350000c8350000443c0000da3c0000c23d0000b43e000008810000da8100000a850000ee90000008910000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,9 +523,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d4ddfeff34dffeff4edffeffaee2feffd6fbfffffa930000
+      m_SelectedIDs: 10cb0200
+      m_LastClickedID: 183056
+      m_ExpandedIDs: b4e2feffd2e2feff3ae7feffd6fbffff9e32030046670300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
